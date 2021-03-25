@@ -15,7 +15,7 @@ router.post('/update', roomController.update);
 //delete room
 router.delete('/delete/:id', roomController.delete);
 
-//get one room
+//get one room to the system
 router.get('/getOne/:id', roomController.getOne);
 
 router.get('/getOneByName/:id', roomController.getOneByName);
